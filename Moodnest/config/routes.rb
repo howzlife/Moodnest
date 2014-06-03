@@ -1,10 +1,12 @@
 Rails.application.routes.draw do
+  resources :events
+
   devise_for :users
   root 'pages#home'
 
-  get 'pages/about'
+  get "about" => "pages#about" #create the about_path
 
-  get 'pages/contact'
+  get "Contact" => "pages#contact" #create the contact_path
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

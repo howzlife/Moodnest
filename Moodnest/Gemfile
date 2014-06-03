@@ -26,6 +26,8 @@ gem 'jbuilder', '~> 2.0'
 #For users
 gem 'devise', '~> 3.2.4'
 # bundle exec rake doc:rails generates the API under doc/api.
+gem 'fullcalendar-rails'
+#For events management
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Use ActiveModel has_secure_password
