@@ -10,6 +10,8 @@ Rails.application.routes.draw do
 
   get "Contact" => "pages#contact" #create the contact_path
 
+  get '/search/:query' => 'search#search', :as => 'search'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -69,6 +69,11 @@ GEM
       treetop (~> 1.4.8)
     masonry-rails (0.2.1)
       rails
+    meta_search (0.5.4)
+      actionpack (>= 3.0.0.beta4)
+      activerecord (>= 3.0.0.beta4)
+      activesupport (>= 3.0.0.beta4)
+      arel (>= 0.4.0)
     mime-types (1.25.1)
     minitest (5.3.4)
     multi_json (1.10.1)
@@ -155,6 +160,7 @@ DEPENDENCIES
   jquery-rails
   jquery-turbolinks
   masonry-rails (~> 0.2.0)
+  meta_search
   paperclip (~> 4.1)
   pg
   rails (= 4.1.1)

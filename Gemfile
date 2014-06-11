@@ -32,8 +32,8 @@ gem 'fullcalendar-rails'
 #for pictures and avatar
 gem "paperclip", "~> 4.1"
 gem 'masonry-rails', '~> 0.2.0'
-gem 'monologue', github: 'jipiboily/monologue'
-
+gem "meta_search"  # Last officially released gem
+# gem "meta_search", :git => "git://github.com/ernie/meta_search.git" # Track git repo
 
 group :development, :test do
 	gem 'sqlite3'
