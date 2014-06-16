@@ -1,7 +1,12 @@
 source 'https://rubygems.org'
-ruby '1.9.3'
+ruby '2.0.0'
 
-
+# ActiveAdmin stuf
+#gem activeadmin
+gem 'activeadmin', github: 'gregbell/active_admin'
+gem 'polyamorous', github: 'activerecord-hackery/polyamorous'
+gem 'ransack', github: 'activerecord-hackery/ransack'
+gem 'formtastic', github: 'justinfrench/formtastic'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
 # Use sqlite3 as the database for Active Record
@@ -32,7 +37,7 @@ gem 'fullcalendar-rails'
 #for pictures and avatar
 gem "paperclip", "~> 4.1"
 gem 'masonry-rails', '~> 0.2.0'
-gem "meta_search"  # Last officially released gem
+#gem "meta_search"  # Last officially released gem
 # gem "meta_search", :git => "git://github.com/ernie/meta_search.git" # Track git repo
 
 group :development, :test do
@@ -63,4 +68,6 @@ end
 # gem 'debugger', group: [:development, :test]
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin]
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+#fancygrid gem, to render tables
+gem 'fancygrid'
